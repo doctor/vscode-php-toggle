@@ -36,4 +36,4 @@ Inspired by [@kirillplatonov](https://github.com/kirillplatonov) plugin [vscode-
 
 ## License
 
-This extension is [licensed under the MIT License](LICENSE.txt).
+This extension is [licensed under the MIT License](LICENSE).
