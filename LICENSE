@@ -1,6 +1,10 @@
 MIT License
 
+<<<<<<< HEAD
 Copyright (c) 2024 doctor
+=======
+Copyright (c) 2020 Kirill Platonov
+>>>>>>> 3b79761 (Initial toggle command)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

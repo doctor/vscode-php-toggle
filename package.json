@@ -1,0 +1,46 @@
+{
+  "name": "php-toggle",
+  "displayName": "PHP Toggle",
+  "description": "Toggle command for PHP tags",
+  "version": "0.1.0",
+  "publisher": "doctor",
+  "author": "Jake Hope",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "license": "MIT",
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "images/vscode-icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doctor/vscode-php-toggle.git"
+  },
+  "bugs": "https://github.com/doctor/vscode-php-toggle/issues",
+  "activationEvents": [
+    "onLanguage:php",
+    "onLanguage:html.php"
+  ],
+  "main": "src/index.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "php-toggle.toggleTags",
+        "title": "Toggle between PHP tags"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "php-toggle.toggleTags",
+        "key": "ctrl+shift+/",
+        "when": "editorTextFocus && editorLangId =~ /php/"
+      },
+      {
+        "command": "php-toggle.toggleTags",
+        "key": "cmd+shift+/",
+        "when": "isMac && editorTextFocus && editorLangId =~ /php/"
+      }
+    ]
+  }
+}
