@@ -20,7 +20,9 @@
   "keywords": [
     "php",
     "toggle",
-    "php tags"
+    "toggler",
+    "php tags",
+    "php toggler"
   ],
   "bugs": "https://github.com/doctor/vscode-php-toggle/issues",
   "activationEvents": [
