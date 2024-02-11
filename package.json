@@ -2,7 +2,7 @@
   "name": "php-toggle",
   "displayName": "PHP Toggle",
   "description": "Toggle command for PHP tags",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "publisher": "doctor",
   "author": "Jake Hope",
   "engines": {
