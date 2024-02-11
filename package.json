@@ -2,7 +2,7 @@
   "name": "php-toggle",
   "displayName": "PHP Toggle",
   "description": "Toggle command for PHP tags",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "doctor",
   "author": "Jake Hope",
   "engines": {
@@ -17,6 +17,11 @@
     "type": "git",
     "url": "https://github.com/doctor/vscode-php-toggle.git"
   },
+  "keywords": [
+    "php",
+    "toggle",
+    "php tags"
+  ],
   "bugs": "https://github.com/doctor/vscode-php-toggle/issues",
   "activationEvents": [
     "onLanguage:php",

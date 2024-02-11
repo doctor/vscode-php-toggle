@@ -145,21 +145,12 @@ function toggleTags(editor) {
           }
           let delta = new_text.length - selected_text.length;
           if (selected_text.trim().length == 0) {
-            if (new_text.startsWith("<?=")) {
-              new_selection = new vscode.Selection(
-                selection.start.line,
-                selection.end.character + delta - 3,
-                selection.end.line,
-                selection.end.character + delta - 3
-              );
-            } else {
-              new_selection = new vscode.Selection(
-                selection.start.line,
-                selection.end.character + delta - 7,
-                selection.end.line,
-                selection.end.character + delta - 3
-              );
-            }
+            new_selection = new vscode.Selection(
+              selection.start.line,
+              selection.end.character + delta - 3,
+              selection.end.line,
+              selection.end.character + delta - 3
+            );
           } else {
             new_selection = new vscode.Selection(
               selection.start.line,
